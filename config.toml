@@ -2,7 +2,7 @@ baseurl = ""
 relativeURLs = true
 publishDir = "docs"
 title = "Sumanta's Blog"
-theme = "whiteplain"
+theme = "whiteplain-local"
 languageCode = "en"
 # Disqus shortname
 disqusShortname = "Shortname"
