@@ -6,7 +6,7 @@
       {{ with .Params.subtitle }}<h2 class="article-subtitle">{{ . }}</h2>{{ end }}
       <hr class="article-title-bottom">
       {{ partial "author.html" . }}
-      {{ .Content }}
     </article>
+    {{ .Content }}
   </div>
 {{ end }}
