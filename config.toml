@@ -58,6 +58,9 @@ copyright = "&copy; Copyright 2018 Sumanta Bose"
   email = "sumantabose@ntu.edu.sg"
   phone = "+65-98612535"
 
+[permalinks]
+  post = "/:year/:month/:title/"
+  
 [taxonomies]
   category = "categories"
   tag = "tags"
@@ -92,6 +95,10 @@ copyright = "&copy; Copyright 2018 Sumanta Bose"
 # Footer Menu
 [[menu.footer]]
   name = "About"
-  weight = 1
   identifier = "about"
   url = "/about/"
+  weight = 1
+[[menu.footer]]
+  name = "Homepage"
+  url = "http://sumantabose.me/"
+  weight = 2
